@@ -76,8 +76,8 @@
 
     /* ─── HEADER ─── */
     .header {
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
+      background: #000000;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
       position: sticky;
       top: 0;
       z-index: 1000;
@@ -245,14 +245,14 @@
       align-items: center;
       font-size: 1.05rem;
       letter-spacing: 0.02em;
-      color: var(--text-muted);
+      color: rgba(255,255,255,0.75);
       gap: 2px;
       padding: 8px 10px;
       border-radius: 6px;
       position: relative;
       transition: color 0.2s, background 0.2s;
     }
-    .header-icon:hover { color: var(--gold); background: var(--gold-glow); }
+    .header-icon:hover { color: #ffffff; background: rgba(255,255,255,0.1); }
     .header-icon:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
     .header-icon svg { width: 22px; height: 22px; }
     .badge {
@@ -269,7 +269,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      border: 1.5px solid var(--surface);
+      border: 1.5px solid #000000;
     }
 
     /* ─── NAV ─── */
